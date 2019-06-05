@@ -86,28 +86,22 @@ export default {
 ```
 
 ### rollerPickerBox props
-```
-  | name       | type       | explain       |
-  | ------------- |:-------------:|:-------------:|
-  | layer            | Boolean           | Show mask or not. |
-  | lineColor           | String          | Sets the color of the selected portion of the border. |
-```
+| name       | type       | explain       |
+| ------------- |-------------|-------------|
+| layer            | Boolean           | Show mask or not. |
+| lineColor           | String          | Sets the color of the selected portion of the border. |
 
 ### rollerPicker props
-```
-  | name       | type       | explain       |
-  | ------------- |:-------------:|:-------------:|
-  | data            | Array           | List of data to be selected. |
-  | index           | Number          | Currently selected index. |
-  | options           | Object          | Other configuration. |
-```
+| name       | type       | explain       |
+| ------------- |-------------|-------------|
+| data            | Array           | List of data to be selected. |
+| index           | Number          | Currently selected index. |
+| options           | Object          | Other configuration. |
 
 ### rollerPicker options
-```
-  | name       | type       | explain       |
-  | ------------- |:-------------:|:-------------:|
-  | loop            | Boolean           | Turn on the loop scroll. |
-  | height           | Number          |  |
-  | width           | Number          |  |
-  | unitRatio           | Number          | Angle between each option. Such as Math.PI / 8  |
-```
+| name       | type       | explain       |
+| ------------- |-------------|-------------|
+| loop            | Boolean           | Turn on the loop scroll. |
+| height           | Number          |  |
+| width           | Number          |  |
+| unitRatio           | Number          | Angle between each option. Such as Math.PI / 8  |
