@@ -170,7 +170,7 @@ export default {
           const goldDistence = this.scrollHeight
           let selectIndex = Math.round((Math.abs(goldDistence) % (this.pickerOptions.totalHeight + this.pickerOptions.unitDistence)) / this.pickerOptions.unitDistence)
           selectIndex = selectIndex >= this.listPosition.length ? selectIndex - 1 : selectIndex
-          this.$emit('update:index', selectIndex)
+          this.$emit('change', selectIndex)
         }
         if (p === 1) {
           const goldDistence = this.scrollHeight

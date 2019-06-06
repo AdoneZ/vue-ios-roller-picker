@@ -1,6 +1,6 @@
 # vue-ios-roller-picker
 
-> A Vue.js project
+> A Vue.js component.
 ### [demo](http://www.ad-flight.com/roller-picker-exp)
 
 ## Build Setup
@@ -19,7 +19,6 @@ npm run build
 ## install
 ```
 npm install vue-ios-roller-picker
-
 ```
 
 ## example
@@ -83,26 +82,41 @@ export default {
   }
 }
 </script>
-
 ```
 
+## API
+
 ### rollerPickerBox props
+
 | name       | type       | explain       |
 | ------------- |-------------|-------------|
 | layer            | Boolean           | Show mask or not. |
 | lineColor           | String          | Sets the color of the selected portion of the border. |
 
 ### rollerPicker props
+
 | name       | type       | explain       |
 | ------------- |-------------|-------------|
-| data            | Array           | List of data to be selected. |
+| data            | Array           | List of data to be selected. Format: [{text:2019}] |
 | index           | Number          | Currently selected index. |
 | options           | Object          | Other configuration. |
 
 ### rollerPicker options
+
 | name       | type       | explain       |
 | ------------- |-------------|-------------|
 | loop            | Boolean           | Turn on the loop scroll. |
 | height           | Number          |  |
 | width           | Number          |  |
 | unitRatio           | Number          | Angle between each option. Such as Math.PI / 8  |
+
+### rollerPicker event handling
+
+| name       | arguments       | explain       |
+| ------------- |-------------|-------------|
+| change            | index           | Returns the index of the currently selected value. |
+
+## Dependencies
+> [eases](https://github.com/mattdesl/eases)
+> [stylus](https://github.com/stylus/stylus)
+> [stylus-loader](https://github.com/shama/stylus-loader)
