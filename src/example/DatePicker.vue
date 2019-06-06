@@ -33,7 +33,7 @@ export default {
       const crtYear = new Date().getFullYear()
       const arr = []
       for (let i = crtYear - 100; i < crtYear; i++) {
-        arr.unshift({text: i*100000000, value: i})
+        arr.unshift({text: i, value: i})
       }
       return arr
     },
