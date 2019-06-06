@@ -1,7 +1,7 @@
 {
   "name": "vue-ios-roller-picker",
   "description": "A Vue.js component",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "src/components/vueIosRollerPicker/index.js",
   "author": "艾东 <adone@live.cn>",
   "keywords": [
